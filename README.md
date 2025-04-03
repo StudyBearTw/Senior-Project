@@ -21,3 +21,11 @@ Potentially incorporate BiLSTM or other structures to enhance short-text feature
 - Precision
 - Recall
 - F1-score
+### Supervised Training Model adjustment
+- Transformer 層數（全部訓練或只調後幾層）
+- 學習率（2e-5 ～ 5e-5）
+- 批次大小（16/32）
+- 優化器（AdamW）
+- Scheduler（學習率調度）
+- Dropout（避免過擬合）
+- 梯度累積（降低顯存需求）
